@@ -18,13 +18,13 @@
 <pre class=" language-bash"><code class="prism  language-bash">nmap --min-rate 5000 -p- -n -Pn -sS 10.10.11.87 --open
 </code></pre>
 <ul>
-<li><strong>—min-rate 5000:</strong> This flag tells nmap to send a minimum of 5000 packets per second</li>
+<li><strong>--min-rate 5000:</strong> This flag tells nmap to send a minimum of 5000 packets per second</li>
 <li><strong>-p-:</strong> Scans the 65535 existent ports</li>
 <li><strong>-n:</strong>  It prevents from DNS resolving</li>
 <li><strong>-Pn:</strong> Disable host discovery scanning (ping)</li>
 <li><strong>-sS:</strong> Prevent from doing three-way handshake</li>
 <li><strong>10.10.11.87:</strong> The IP address that we want to scan</li>
-<li><strong>—open:</strong> List only open ports</li>
+<li><strong>--open:</strong> List only open ports</li>
 </ul>
 <blockquote>
 <p>Three-way handshake is the standard TCP connection process:</p>

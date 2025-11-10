@@ -27,7 +27,7 @@
 <li><strong>--open:</strong> List only open ports</li>
 </ul>
 <blockquote>
-<p>Three-way handshake is the standard TCP connection process:</p>
+<p>Three-way handshake is the standard  connection process:</p>
 <ol>
 <li><strong>Client</strong> → SYN → Server</li>
 <li><strong>Server</strong> → SYN-ACK → Client</li>
@@ -48,10 +48,10 @@
 <ul>
 <li><strong>--script ssh-auth-methods:</strong> Is a script for nmap that show to us the ways of autenticate in the server by SSH protocol.</li>
 <li><strong>-sV:</strong> This flag makes nmap list the versions of the services running on the port and tell us which version they are using</li>
-<li><strong>-p 22:</strong> We specify what port we want to scan, in this case only the 22 because is the only TCP port open</li>
+<li><strong>-p 22:</strong> We specify what port we want to scan, in this case only the 22 because is the only  port open</li>
 </ul>
 <p>The scan report we can connect via publickey or a password.</p>
-<p>In fact we have not find any TCP port open, we will scan UDP ports, with the flag -sU</p>
+<p>In fact we have not find any TCP port except 22 open, we will scan UDP ports, with the flag -sU</p>
 <pre class=" language-bash"><code class="prism  language-bash">nmap -sU --min-rate 5000 --top-ports 100 10.10.11.87
 </code></pre>
 <p><strong>–top-ports 100:</strong> This flag scans the 100 more popular ports<br>

@@ -46,7 +46,7 @@
 <pre class=" language-bash"><code class="prism  language-bash">nmap --script ssh-auth-methods -sV -p 22 --min-rate 5000 10.10.11.87
 </code></pre>
 <ul>
-<li><strong>–script ssh-auth-methods:</strong> Is a script for nmap that show to us the ways of autenticate in the server by SSH protocol.</li>
+<li><strong>--script ssh-auth-methods:</strong> Is a script for nmap that show to us the ways of autenticate in the server by SSH protocol.</li>
 <li><strong>-sV:</strong> This flag makes nmap list the versions of the services running on the port and tell us which version they are using</li>
 <li><strong>-p 22:</strong> We specify what port we want to scan, in this case only the 22 because is the only TCP port open</li>
 </ul>

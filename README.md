@@ -55,6 +55,7 @@
 <pre class=" language-bash"><code class="prism  language-bash">nmap -sU --min-rate 5000 --top-ports 100 10.10.11.87
 </code></pre>
 <p><strong>–top-ports 100:</strong> This flag scans the 100 more popular ports<br>
+
 We receive a very, very interesting report:</p>
 <pre class=" language-bash"><code class="prism  language-bash">PORT      STATE  SERVICE
 500/udp   <span class="token function">open</span>   isakmp

@@ -150,6 +150,7 @@ ike         offramp.expressway.htb  <span class="token operator">=</span> NOPASS
 <li><strong>bash:</strong> The command we want to do, in this case, generate a sudo bash (root bash)<br>
 </ul>
 Now, how you can notice, we are root! We have fully pawned this machine, one last thing:</li>
+
 <pre class=" language-bash"><code class="prism  language-bash"><span class="token function">cat</span> /root/root.txt
 b3f51<span class="token punctuation">..</span>.
 </code></pre>
